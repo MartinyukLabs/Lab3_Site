@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+.nav {
+    background-color: #4A5DBF;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.link {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links {
+    margin: 20px;
+}
+
+.logo {
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.user-icon {
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.nav {
+    height: 60px;
+    position: fixed;
+    width: 100vw;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer {
+    width: 100vw;
+    height: 75px;
+    background-color: #D6D6D6;
+}
+
+.footerText {
+    font-size: 20px;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainText {
+    display: flex;
+    align-items: center;
+    height: 82.6vh;
+    text-align: center;
+    font-size: 128px;
+    font-weight: bold;
+}
+
+.label {
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.inputDiv {
+    margin: 10px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    background-color: #D9D9D9;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #4A5DBF;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+.profileLink {
+    margin: 10px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ticketBox {
+    background-color: #C6C6C6;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.ticketBold {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.date {
+    margin: 5px;
+}
+
+.profileLinks {
+    position: fixed;
+    top: 80px;
+    left: 41.5%;
+}
+
+.cityName {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.orderLink {
+    position: fixed;
+    top: 70px;
+    left: 87%;
+}
+
+.cities {
+    margin-top: 100px;
+}
+
+.cityBox {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.cityImage {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.cityDescription {
+    width: 500px;
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
+.cityH {
+    width: 500px;
+    word-wrap: break-word;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
