@@ -12,6 +12,7 @@ img {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    z-index: 1;
 }
 
 .link {
@@ -51,9 +52,23 @@ img {
 }
 
 .footer {
-    width: 100vw;
-    height: 75px;
+    width: 100%;
+    min-height: 75px;
     background-color: #D6D6D6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        display: block;
+        text-align: center;   
+    }
+    .footerText {
+        font-size: 20px;
+        margin-top: 20px;
+    }
 }
 
 .footerText {
@@ -73,6 +88,12 @@ img {
     text-align: center;
     font-size: 128px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .mainText {
+        font-size: 64px; 
+    }
 }
 
 .label {
@@ -138,9 +159,8 @@ img {
 }
 
 .profileLinks {
-    position: fixed;
+    position: relative;
     top: 80px;
-    left: 41.5%;
 }
 
 .cityName {
@@ -152,7 +172,7 @@ img {
 .orderLink {
     position: fixed;
     top: 70px;
-    left: 87%;
+    right: 0px;
 }
 
 .cities {
@@ -169,21 +189,46 @@ img {
     padding: 20px;
 }
 
-.cityImage {
-    width: 500px;
-    display: flex;
-    align-items: center;
+@media screen and (max-width: 800px) {
+    .cityBox {        
+        display: block;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .cityImage {
+        width: 100%;
+    }
+    .cityH {
+        
+        word-wrap: break-word;
+        text-align: center;
+    }
+    .cityDescription {
+        
+        word-wrap: break-word;
+        font-size: 18px;
+        text-align: center;
+    }
 }
 
-.cityDescription {
-    width: 500px;
-    word-wrap: break-word;
-    font-size: 20px;
-}
+@media screen and (min-width: 800px) {
+    .cityImage {
+        width: 500px;
+        display: flex;
+        align-items: center;
+    }
+    .cityDescription {
+        width: 500px;
+        word-wrap: break-word;
+        font-size: 20px;
+    }
 
-.cityH {
-    width: 500px;
-    word-wrap: break-word;
+    .cityH {
+        width: 500px;
+        word-wrap: break-word;
+    }
 }
 
 .center {
